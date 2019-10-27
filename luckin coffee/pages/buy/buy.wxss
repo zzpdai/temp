@@ -1,0 +1,27 @@
+/* pages/buy/buy.wxss */
+@import "/assets/fonts/iconfont.wxss";
+.container{
+  display: flex;
+  height:calc(100vh - 380rpx);
+  font-size: 26rpx;
+}
+.container .left{
+  background-color:#F6F6F6; 
+  width:220rpx;
+ 
+}
+.container .left view{
+   padding:10px;
+   border-left:5rpx solid transparent;
+  text-align: center;
+}
+.container .left view.active{
+  background-color: #fff;
+  border-left:5rpx solid #7ba9cd;
+  color:#7ba9cd
+
+}
+
+.container .right{
+  flex:1;
+}

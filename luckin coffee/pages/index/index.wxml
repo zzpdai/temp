@@ -1,0 +1,21 @@
+<swiper indicator-color="#fff" indicator-dots="true" circular="true">
+  <swiper-item wx:for="{{imglist}}">
+    <image src="{{item}}"></image>
+  </swiper-item>
+</swiper>
+<view class="container">
+  <view class="list">
+    <navigator open-type="switchTab"  url="../buy/buy" class="item">
+      <view class="left">左1</view>
+      <view class="right">右1</view>
+    </navigator>
+    <view class="item">
+      <view class="left">左2</view>
+      <view class="right">右2</view>
+    </view>
+    <view class="item">
+      <view class="left">左3</view>
+      <view class="right">右3</view>
+    </view>
+  </view>
+</view>

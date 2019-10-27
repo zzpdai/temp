@@ -1,0 +1,32 @@
+<!--pages/buy/buy.wxml-->
+
+<image style="diaplay:block;height:300rpx;width:100%" src="http://www.happylemon-jm.com/images/images/banner3.jpg"></image>
+<view class="container">
+  <scroll-view class="left" scroll-y="true">
+    <view data-type="{{item.id}}" bindtap="changeType" class="{{activeType==item.id?'active':''}}" wx:for="{{menulist}}">
+      {{item.name}}
+    </view>
+  </scroll-view>
+  <scroll-view class="right padding20-j" scroll-y="true" >
+    <view class="section" wx:for="{{10}}">
+      <view class="flex a-center padding20-a">
+        <view>岩盐芝士系列</view>
+        <view style="height:1px;background-color:#ccc;;flex:1"></view>
+      </view>
+      <view class="content">
+        <view class="item flex relative padding20-a" wx:for="{{4}}">
+          <view class="item-left">
+            <image class="border-radius" style="width:140rpx;height:140rpx" src="http://www.happylemon-jm.com/uploads/allimg/170211/1-1F2111JP90-L.jpg"></image>
+          </view>
+          <view class="item-right padding20 ">
+            <view style="font-weight:bold">岩盐芝士密香红茶</view>
+            <view style="font-size:22rpx;color:#ccc;margin:10rpx 0 20rpx 0">介绍：岩盐芝士密香红茶</view>
+            <view style="font-weight:bold">¥27</view>
+          </view>
+          <view class="iconfont icon-add absolute addblue" style="right:10rpx;bottom:25rpx;font-size:42rpx">
+          </view>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</view>

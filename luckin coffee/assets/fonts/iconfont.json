@@ -1,0 +1,30 @@
+{
+  "id": "1464050",
+  "name": "mall",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "151331",
+      "name": "add",
+      "font_class": "add",
+      "unicode": "e661",
+      "unicode_decimal": 58977
+    },
+    {
+      "icon_id": "8288999",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e86a",
+      "unicode_decimal": 59498
+    },
+    {
+      "icon_id": "8316499",
+      "name": "icon-add",
+      "font_class": "icon-add",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
